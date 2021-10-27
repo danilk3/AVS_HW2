@@ -1,0 +1,36 @@
+Filled container:
+Container contains 7 elements.
+0: It is Shrub:
+-name: bvcxzasdfg,
+-month of flowering: 0,
+-function result: 0.100000
+
+1: It is Flower:
+-name: cvbnmjkyuh,
+-type of flower: 0,
+-function result: 0.200000
+
+2: It is Shrub:
+-name: bvcxzasdfg,
+-month of flowering: 0,
+-function result: 0.100000
+
+3: It is Flower:
+-name: cvbnmjkyuh,
+-type of flower: 0,
+-function result: 0.200000
+
+4: It is Shrub:
+-name: bvcxzasdfg,
+-month of flowering: 0,
+-function result: 0.100000
+
+5: It is Flower:
+-name: cvbnmjkyuh,
+-type of flower: 0,
+-function result: 0.200000
+
+6: It is Shrub:
+-name: bvcxzasdfg,
+-month of flowering: 0,
+-function result: 0.100000
