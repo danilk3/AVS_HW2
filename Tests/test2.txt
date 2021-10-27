@@ -1,0 +1,11 @@
+10
+1 2000 hygjubnmki
+3 7 bvcxzasdfg
+2 3 cvbnmjkyuh
+1 387 hygjubnmki
+3 10 bvcxzasdfg
+2 2 cvbnmjkyuh
+1 100 hygjubnmki
+3 6 bvcxzasdfg
+2 1 cvbnmjkyuh
+3 9 bvcxzasdfg

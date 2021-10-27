@@ -1,0 +1,3 @@
+C:/Users/dahil/Downloads/02-02-oop-c++dyn.tar/AVS_HW2/cmake-build-debug/CMakeFiles/task.dir
+C:/Users/dahil/Downloads/02-02-oop-c++dyn.tar/AVS_HW2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/dahil/Downloads/02-02-oop-c++dyn.tar/AVS_HW2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

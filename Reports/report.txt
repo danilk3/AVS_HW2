@@ -1,0 +1,17 @@
+Отчет с характеристиками
+
+cartoon.cpp (2009 байт)
+fiction.cpp (1901 байт)
+documentary.cpp (2078 байт)
+documentary.cpp (1235 байт)
+main.cpp (3568 байт)
+container.cpp (3833 байт)
+
+
+container.h (1519 байт)
+cartoon.h (1256 байт)
+fiction.h (1145 байт)
+movie.h (1008 байт)
+rnd.h (815 байт)
+
+Всего: 20367 байт
