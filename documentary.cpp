@@ -47,5 +47,5 @@ int Documentary::In(FILE *file) {
 //------------------------------------------------------------------------------
 // Подсчет сравнительного параметра.
 double Documentary::ComparisonParam() {
-    return releaseDate / (sizeof(name) / sizeof(name[0]));
+    return releaseDate / 10.0;
 }
