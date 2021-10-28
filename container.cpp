@@ -104,20 +104,20 @@ void Container::ShakerSort() {
     printf("Start shaker sorting: \n");
     int left, right, i;
     left = 0;
-    right = n - 1;
+    right = length - 1;
     while (left <= right) {
-        for (i = right; i >= left; i--) {
-            if (data[i - 1] > data[i]) {
+        for (i = right; i > left; i--) {
+            if (data[i - 1]->ComparisonParam() > data[i]->ComparisonParam()) {
                 swap(data[i - 1], data[i]);
             }
         }
         left++;
         for (i = left; i <= right; i++) {
-            if (data[i - 1] > data[i]) {
+            if (data[i - 1]->ComparisonParam() > data[i]->ComparisonParam()) {
                 swap(data[i - 1], data[i]);
             }
         }
         right--;
-        printf("End shaker sorting.\n");
     }
+    printf("End shaker sorting.\n");
 }
