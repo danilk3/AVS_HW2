@@ -28,18 +28,18 @@ void errMessage2() {
 }
 
 bool isFile(char* argv[], int *size) {
-    if(!strcmp(argv[1], "-f")) {
+    if(!strcmp(argv[2], "-f")) {
         return true;
     }
-    else if(!strcmp(argv[1], "-n")) {
-        *size = atoi(argv[2]);
+    else if(!strcmp(argv[2], "-n")) {
+        *size = atoi(argv[3]);
     }
     return false;
 }
 
 //------------------------------------------------------------------------------
 int main(int argc, char* argv[]) {
-    if(argc != 5) {
+    if(argc != 6) {
         errMessage1();
         return 1;
     }
@@ -54,9 +54,9 @@ int main(int argc, char* argv[]) {
     strcpy(resDir1, res);
     strcpy(resDir2, res);
     // Задаём директории хранения (для тестов и результатов).
-    strcat(testDir, argv[2]);
-    strcat(resDir1, argv[3]);
-    strcat(resDir2, argv[4]);
+    strcat(testDir, argv[3]);
+    strcat(resDir1, argv[4]);
+    strcat(resDir2, argv[5]);
 
     Container *c = new Container();
 
@@ -78,7 +78,7 @@ int main(int argc, char* argv[]) {
         c->In(fp, &size);
         fclose(fp);
     } else {
-        if (!strcmp(argv[1], "-f") && !strcmp(argv[1], "-n")) {
+        if (!strcmp(argv[2], "-f") && !strcmp(argv[2], "-n")) {
             errMessage2();
             return 2;
         }
@@ -105,3 +105,13 @@ int main(int argc, char* argv[]) {
     printf("Stop\n");
     return 0;
 }
+
+/*
+ *
+ * Container *c = new Container();
+    int *size;
+    *size = atoi(argv[2]);
+    c->Init(size);
+    c->InRnd(1000);
+    FILE *fp = fopen("..\\test.txt", "w");
+    c->Out(fp);*/
