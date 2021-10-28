@@ -49,5 +49,5 @@ int Cartoon::In(FILE *file) {
 //------------------------------------------------------------------------------
 // Подсчет сравнительного параметра.
 double Cartoon::ComparisonParam() {
-    return releaseDate / (sizeof(name) / sizeof(name[0]));
+    return releaseDate / 10.0;
 }
